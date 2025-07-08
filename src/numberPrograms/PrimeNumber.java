@@ -9,21 +9,6 @@ public class PrimeNumber {
 		System.out.println("enter the number");
 		int num= sc.nextInt();
 		int count=0;
-	/*	if(num<=0) {
-			System.out.println("The number is not a prime number");
-			return;
-		}
-for(int i=2;i<=num/2;i++) {                    //11/2=5
-	if(num%i==0) {                               //11/2, 11/3,11/4,11/5
-		count++;
-	}
-	if(count>1) {
-		System.out.println("Given number is prime number");
-	}
-	else {
-		System.out.println("Given is not a prime number");
-	}
-}*/
 		
 		if(num>0) {
 			for(int i=1;i<=num;i++) {

@@ -11,13 +11,13 @@ public class RotateArrayLeft {
         k = k % n; // in case k > n,Ensure k < n to avoid unnecessary
 
         // Step 1: Reverse first k elements
-        reverse(arr, 0, k - 1);
+        reverse(arr, 0, k - 1);     // Now arr becomes: [3, 2, 1, 4, 5]
 
         // Step 2: Reverse remaining elements
-        reverse(arr, k, n - 1);
+        reverse(arr, k, n - 1);    // Now arr becomes: [3, 2, 1, 5, 4]
 
         // Step 3: Reverse entire array
-        reverse(arr, 0, n - 1);
+        reverse(arr, 0, n - 1);   // Now arr becomes: [4, 5, 1, 2, 3]
 
         System.out.println("Left Rotated Array: " + Arrays.toString(arr));
     }
