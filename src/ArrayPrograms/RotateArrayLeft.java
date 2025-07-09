@@ -9,7 +9,10 @@ public class RotateArrayLeft {
         int n = arr.length;
 
         k = k % n; // in case k > n,Ensure k < n to avoid unnecessary
-
+/*reverse(a,0,n-1);  //5,4,3,2,1
+              reverse(a,0,k);    //3,4,5,2,1
+              reverse(a,k+1,n-1); //3,4,5,1,2
+               System.out.println(Arrays.toString(a));*/
         // Step 1: Reverse first k elements
         reverse(arr, 0, k - 1);     // Now arr becomes: [3, 2, 1, 4, 5]
 

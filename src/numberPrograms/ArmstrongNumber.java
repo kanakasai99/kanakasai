@@ -11,7 +11,7 @@ public class ArmstrongNumber {
 		 int temp=num;
 		    int res;
 		    double sum=0;
-		    int n=String.valueOf(temp).length();  //Count number of digits to use as the exponent.E.g., if input is 371, then n = 3
+		 //Count number of digits to use as the exponent.E.g., if input is 371, then n = 3
 
 		    while(num > 0) {
 		        res = num % 10;                  // Get the last digit

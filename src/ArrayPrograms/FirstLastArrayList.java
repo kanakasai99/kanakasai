@@ -11,7 +11,7 @@ public class FirstLastArrayList {
 	       myList.add("Grapes");
 	       if(!myList.isEmpty()){
 	           String fe=myList.get(0);
-	           String le=myList.get(myList.size()-2);
+	           String le=myList.get(myList.size()-1);
 	           System.out.println("first element is: "+fe);
 	           System.out.println("last but one element is: "+le);
 	       }
