@@ -19,6 +19,16 @@ public class CoomonElementsTwoArray {
 	        }
 	    }
 	    System.out.println("common elements are: "+common);
+	    /*int uniqueArray[]=new int[common.size()];   
+		int i=0;
+		for(int num:common){
+		    uniqueArray[i++]=num;
+		}
+		System.out.println("unique elements in array: "+Arrays.toString(uniqueArray));
+		
+		*/
+		    }   
+		
 	    }
-	}
+	
 

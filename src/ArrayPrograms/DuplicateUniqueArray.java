@@ -9,6 +9,7 @@ public class DuplicateUniqueArray {
 	for(int num: a){
 	    uniqueSet.add(num);  //removed duplicates and store unique set
 	}
+	System.out.println(uniqueSet);
 	//convert set to array
 	int uniqueArray[]=new int[uniqueSet.size()];   
 	int i=0;
