@@ -13,6 +13,13 @@ public class abbcbacddcccddd {
 	            result.append(entry.getKey()).append(entry.getValue());
 	        }
 	        System.out.println(result);
+	        /*  StringBuilder result=new StringBuilder();
+	       for(char ch :map.keySet()){
+	           if(map.get(ch)>1){
+	               result.append(ch).append(map.get(ch));
+	           }
+	       }
+	       System.out.println(result.toString());*/
 	    }
 	}
 
