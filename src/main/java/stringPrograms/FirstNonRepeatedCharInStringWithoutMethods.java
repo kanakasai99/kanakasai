@@ -21,3 +21,23 @@ public static void main(String[] args) {
 	}
 }
 }
+/*import java.util.*;
+class Main {
+	public static void main(String[] args) {
+		String s="kanaka";
+		for(int i=0; i<s.length();i++){
+			Boolean br=false;
+			for(int j=0;j<s.length();j++){
+				if(i!=j && (s.charAt(i)==s.charAt(j))){
+					br=true;
+					break;
+				}
+
+			}
+			if(!br){
+				System.out.println(s.charAt(i));
+				break;
+			}
+		}
+	}
+}*/

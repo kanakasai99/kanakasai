@@ -10,9 +10,9 @@ public class SwapUsingThirdVariable {
 		 a=sc.nextInt();
 		 System.out.println("enter value of a:");
 	     b=sc.nextInt();
-	     c=a;                              //c=10
-	     a=b;                             //a=20
-	     b=c;                             //b=10
+	     c=a;                              //c=10  //C=A+B;
+	     a=b;                             //a=20   //A=C-B
+	     b=c;                             //b=10   //B=C-A
 	System.out.println("value of a:"+a);
 	System.out.println("value of b:"+b);
 	}

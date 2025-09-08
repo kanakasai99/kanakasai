@@ -26,7 +26,14 @@ public class CoomonElementsTwoArray {
 		}
 		System.out.println("unique elements in array: "+Arrays.toString(uniqueArray));
 		
-		*/
+		*//*for (int uni : common) {
+    fresh[i++] = uni;
+}
+only works because common is declared as Set<Integer>.
+
+This way, the compiler knows uni is an Integer and auto-unboxes it to int.
+
+Without generics, common is just a Set of Object, and Java can’t auto-unbox Object to int — hence you’d be forced to cast.*/
 		    }   
 		
 	    }

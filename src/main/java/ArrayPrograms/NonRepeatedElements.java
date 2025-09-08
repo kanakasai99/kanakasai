@@ -24,12 +24,17 @@ frequencyMap.put(num,frequencyMap.get(num));
 	            if (frequencyMap.get(num) == 1) {
 	                System.out.print(num + " ");
 	            }
+
 	            //System.out.print("Duplicate elements: ");
-*/for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
+	          */
+for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
+
     if (entry.getValue() == 1) {
         System.out.println(entry.getKey()+"->no of times repeated : "+entry.getValue());
+
     }
 }
+
 	        }
 	    }
 	

@@ -12,13 +12,13 @@ public class MaxMinNumberArray {
 			max=a[i];
 		}
 	}
-System.out.println(max);
+System.out.println("maximum number in the array: "+max);
 	
 	for(int i=1;i<a.length;i++) {
 	if(a[i]<min) {          //50<9  //condition fails so a[0]=9
 		min=a[i];
 	}
 }
-System.out.println(min);
+System.out.println("minimum number in the array: "+min);
 }
 }

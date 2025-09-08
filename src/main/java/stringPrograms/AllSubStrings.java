@@ -27,3 +27,18 @@ public class AllSubStrings {
         }
     }
 }
+/*import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        String s="names";
+        char ch[]=s.toCharArray();
+
+        for(int i=0;i<s.length();i++){
+            StringBuilder result=new StringBuilder();
+            for(int j=i;j<s.length();j++){
+                result.append(ch[j]);
+                System.out.println(result);
+            }
+        }
+    }
+}*/

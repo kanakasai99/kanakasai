@@ -11,7 +11,7 @@ public class ZeroFirstArray{
 
     for(int i=n-1;i>=0;i--){  //i=1
         if(array[i]!=0){
-        array[index]=array[i];   //0 1 2 3 4 5 6
+        array[index]=array[i];   //0  1   2 3 4 5 6
                                 // 0  0   0  4  5  6 5
         index--;                //2
     }
