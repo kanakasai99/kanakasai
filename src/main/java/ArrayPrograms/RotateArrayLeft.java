@@ -36,3 +36,10 @@ public class RotateArrayLeft {
     }
 }
 
+/*Why while (start < end)?
+The loop ensures you keep swapping pairs of elements from both ends until the two pointers meet.
+Example: If array = {1, 2, 3, 4, 5}, start = 0, end = 4
+Swap index 0 ↔ 4 → {5, 2, 3, 4, 1}
+Swap index 1 ↔ 3 → {5, 4, 3, 2, 1}
+Stop when start == end (middle element).
+So the while loop is used to keep swapping until the array (or subarray) is completely reversed.*/

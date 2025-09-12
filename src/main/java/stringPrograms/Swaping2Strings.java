@@ -17,3 +17,8 @@ public class Swaping2Strings {
 	    }
 	}
 
+/*String substring(int beginIndex)
+s.substring(beginIndex) → returns part of the string from beginIndex to the end.
+
+String substring(int beginIndex, int endIndex)
+s.substring(beginIndex, endIndex) → returns part of the string from beginIndex up to but not including endIndex.*/
