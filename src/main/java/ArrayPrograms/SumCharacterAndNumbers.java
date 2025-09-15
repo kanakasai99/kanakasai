@@ -6,13 +6,13 @@ public class SumCharacterAndNumbers {
 	      int sum=0;
 	      String Invalid="";
 	      for(String element: mylist){
-			  String digits=element.replaceAll("\\D","");
+			//  String digits=element.replaceAll("\\D","");
 
 	          try{
-	          sum=sum+Integer.parseInt(digits);
+	          sum=sum+Integer.parseInt(element);
 	      }
 	      catch(Exception e){
-	    	  Invalid= Invalid +digits+", ";
+	    	  Invalid= Invalid +element+", ";
 	    	 
 	      }
 	    }

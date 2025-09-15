@@ -12,14 +12,12 @@ public static void main(String[] args) {
 				for(int j=words[i].length()-1;j>=0;j--) {
 					rev=rev+words[i].charAt(j);
 				}
-				result=result+rev;
+				result=result+rev+" ";
 			}
 			else {
-				result=result+words[i];
+				result=result+words[i]+" ";
 			}
-			if(i!=words.length-1) {
-				result=result+" ";
-			}
+
 		}
 		System.out.println(result);
 }
