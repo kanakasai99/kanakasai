@@ -11,3 +11,10 @@ System.out.println(s1==s3);
 System.out.println(s1.equals(s3));  //checks content in the memory
 }
 }
+/*public class Main {
+    public static void main(String[] args) {
+         String s = "  My    name     is    so    and    so";
+         String result=s.replaceAll("\\s+"," ");
+         System.out.println(result);
+        }
+    }*/
