@@ -15,3 +15,11 @@ public class RemovewhiteSpaces {
 		System.out.println(res);
 	}
 }
+/*Case 2: Replace multiple spaces with a single space
+
+(So "Welcome to the ground" → "Welcome to the ground")
+
+Using regex:
+
+str = str.replaceAll("\\s+", " ");
+System.out.println(str.trim());*/
