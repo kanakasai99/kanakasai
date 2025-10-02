@@ -1,4 +1,4 @@
-package DailyProgramPractice;
+package javapracticetopicwise;
 
 public class Variables {
 	public static int comNum=100;

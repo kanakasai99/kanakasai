@@ -21,3 +21,13 @@ public class PerfectNumber {
         }
     }
 }
+/*A perfect number is a positive integer that is equal to the sum of its proper divisors (divisors excluding the number itself).
+* Example:
+
+6
+
+Divisors of 6 (excluding itself): 1, 2, 3
+
+Sum =
+1+2+3=6
+✅ So, 6 is a perfect number.*/

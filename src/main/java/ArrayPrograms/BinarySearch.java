@@ -10,8 +10,7 @@ int[] arr = {10, 12, 23, 34, 45, 67, 89}; // sorted array
 int target = 67;
 
 int low = 0, high = arr.length - 1;  
-    boolean found = false;  
-
+    boolean found = false;
     while (low <= high) {  
         int mid = (low + high) / 2;  
 
@@ -21,7 +20,7 @@ int low = 0, high = arr.length - 1;
             break;  
         } else if (arr[mid] < target) {  
             low = mid + 1;  
-        } else {  
+        } else {
             high = mid - 1;  
         }  
     }  
