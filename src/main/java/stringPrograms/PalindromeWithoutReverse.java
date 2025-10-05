@@ -13,7 +13,7 @@ public class PalindromeWithoutReverse {
 		    {
 			 if(str.charAt(i)!=str.charAt(str.length()-1-i))
 			 {
-				 br=false;///
+				 br=false;
 				 break;
 			  }
 			 }
