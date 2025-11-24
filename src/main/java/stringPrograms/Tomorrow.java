@@ -19,5 +19,14 @@ public static void main(String[] args) {
 	    	}
 	     }
 	     System.out.println(output.toString());
+		 /*for(Map.Entry<Character,Integer> entry:map.entrySet()){
+			 if(entry.getValue()>1){
+				 output.append(entry.getValue());
+			 }
+			 else{
+				 output.append(entry.getKey());
+			 }
+		 }*/
+	System.out.println(output.toString());
 }
 }

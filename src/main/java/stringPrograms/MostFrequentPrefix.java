@@ -7,14 +7,14 @@ public class MostFrequentPrefix {
         String[] words = {"apple", "app", "application", "apply", "apt", "banana", "bat"};
 
         // Map to store frequency of each prefix
-        Map<String, Integer> prefixCount = new HashMap<>();
+        Map<String, Integer> map = new HashMap<>();
 
         for (String word : words) {
             StringBuilder prefix = new StringBuilder();
             for (int i = 0; i < word.length(); i++) {
                 prefix.append(word.charAt(i));
                 String currentPrefix = prefix.toString();
-                prefixCount.put(currentPrefix, prefixCount.getOrDefault(currentPrefix, 0) + 1);
+                map.put(currentPrefix, map.getOrDefault(currentPrefix, 0) + 1);
             }
         }
 /*Let’s say word = "app"
@@ -27,7 +27,7 @@ Iteration 3: prefix = "app" → map: "app" → 1"*/
         String mostFrequentPrefix = "";
         int maxCount = 0;
 
-        for (Map.Entry<String, Integer> entry : prefixCount.entrySet()) {
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
             if (entry.getValue() > maxCount) {
                 mostFrequentPrefix = entry.getKey();
                 maxCount = entry.getValue();

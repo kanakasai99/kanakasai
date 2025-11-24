@@ -11,6 +11,7 @@ public class PerfectNumbers {
                 if(num%i==0){
                     sum=sum+i;
                 }
+
             }
             if(sum==num){
                 perfectNumbers.add(num);
