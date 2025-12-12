@@ -6,6 +6,7 @@ public class BinarySearch {
 public static void main(String[] args) {
 	//binary search Works only on sorted arrays
 	//Arrays.sort(arr); // Sort the array first
+	//i tried to check the pull request.
 int[] arr = {10, 12, 23, 34, 45, 67, 89}; // sorted array
 int target = 67;
 
