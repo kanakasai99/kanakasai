@@ -24,7 +24,6 @@ public class MoveNegativesLeft {
 	                right--;
 	            }
 	        }
-
 	        System.out.println("Rearranged Array: " + Arrays.toString(arr));
 	    }
 

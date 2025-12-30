@@ -12,6 +12,15 @@ public class ArmstrongNumber {
 		    int res;
 		    double sum=0;
 		    int n=String.valueOf(temp).length();  //why can't we give temp.length //Count number of digits to use as the exponent.E.g., if input is 371, then n = 3
+		/*String.valueOf(num).length();
+
+What it does (simple explanation 👇)
+String.valueOf(num)
+Converts the number num into a String
+Example:
+num = 12345 → "12345"
+.length()
+Returns the number of characters in that string*/
 
 		    while(num > 0) {
 		        res = num % 10;                  // Get the last digit
