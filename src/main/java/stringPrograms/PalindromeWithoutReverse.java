@@ -6,7 +6,7 @@ public class PalindromeWithoutReverse {
 
 	public static void main(String[] args) {
 	
-		String str="kanaka";
+		String str="kanak";
 		 Boolean br=true;
 		int length=str.length();
 		 	 for(int i=0;i< length/2;i++)
@@ -16,6 +16,7 @@ public class PalindromeWithoutReverse {
 				 br=false;
 				 break;
 			  }
+
 			 }
 			 if(br)
 			 {

@@ -8,6 +8,7 @@ public class RemoveMultiSpacesWORegex {
         String s=" This is the   kanaka      sai mereddy  ";
         s=s.trim();
         String result ="";
+
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
 

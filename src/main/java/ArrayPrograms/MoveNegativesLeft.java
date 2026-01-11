@@ -12,6 +12,7 @@ public class MoveNegativesLeft {
 	                left++;
 	            }
 	            // If right is positive, move backward
+
 	            else if (arr[right] >= 0) {  //arr[right]<0
 	                right--;
 	            }
