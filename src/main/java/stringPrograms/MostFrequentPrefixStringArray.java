@@ -1,7 +1,7 @@
 package stringPrograms;
 import java.util.*;
 
-public class MostFrequentPrefix {
+public class MostFrequentPrefixStringArray {
 
     public static void main(String[] args) {
         String[] words = {"apple", "app", "application", "apply", "apt", "banana", "bat"};
