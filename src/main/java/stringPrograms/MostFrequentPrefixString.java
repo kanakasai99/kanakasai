@@ -2,13 +2,13 @@ package stringPrograms;
 
 public class MostFrequentPrefixString {
     public static void main(String[] args) {
-        String s = "kanakasaimereddymereddykanakasaisaikanaka";
+        String s = "anakasaikanakasaimereddykanakasaimeres";
 
         String mostFrequentPrefix = "";
         int maxCount = 0;
 
         // generate all prefixes
-        for (int i = 1; i <= s.length(); i++) {
+        for (int i = 2; i <= s.length(); i++) {
             String prefix = s.substring(0, i);
             int count = 0;
 
