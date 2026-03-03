@@ -2,7 +2,7 @@ package ArrayPrograms;
 
 import java.util.ArrayList;
 
-public class EvenOddArray {
+public class EvenOddFromArray {
 
     public static void main(String[] args) {
         

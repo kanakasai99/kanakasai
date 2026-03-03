@@ -1,7 +1,7 @@
 package ArrayPrograms;
-
-import java.util.Arrays;
-
+/*Linear Search means checking each element one by one from start to end until you find the target.works for both sorted and unsorted arrays
+Binary Search finds an element by repeatedly dividing the array into half.⚠️ Condition:
+👉 Array must be sorted*/
 public class BinarySearch {
 public static void main(String[] args) {
 	//binary search Works only on sorted arrays
