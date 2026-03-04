@@ -17,6 +17,7 @@ public class GetSecondDigitFromString {
         System.out.println(letters.toString());
         System.out.println(numbers.toString());
         char chn[]=numbers.toString().toCharArray();
+        System.out.println(Arrays.toString(chn));
         int num[]=new int[chn.length];
         int k=0;
         for(char cn: chn){
