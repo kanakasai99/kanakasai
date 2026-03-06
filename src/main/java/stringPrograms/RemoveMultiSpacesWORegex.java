@@ -1,29 +1,26 @@
 package stringPrograms;
 
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
 public class RemoveMultiSpacesWORegex {
     public static void main(String[] args) {
-        String s=" This is the   kanaka      sai mereddy  ";
-        s=s.trim();
-        String result ="";
 
-        for(int i=0;i<s.length();i++){
-            char ch=s.charAt(i);
+        String s = " This is the   kanaka      sai mereddy  ";
+        String result = "";
 
-            if(ch != ' '){
-                result=result+ch;
+        for(int i = 0; i < s.length(); i++) {
+
+            char ch = s.charAt(i);
+
+            // Skip leading spaces
+            if(result.length() == 0 && ch == ' ') {
+                continue;
             }
-            else{
-                char ch1=s.charAt(i+1);
-                if(ch1 == ' '){
-                    continue;
 
-                }
-                else{
-                    result=result+ch;
-
+            if(ch != ' ') {
+                result = result + ch;
+            }
+            else {
+                if(i + 1 < s.length() && s.charAt(i + 1) != ' ') {
+                    result = result + ch;
                 }
             }
         }
