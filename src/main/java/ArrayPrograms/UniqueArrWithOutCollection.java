@@ -1,5 +1,8 @@
 package ArrayPrograms;
 
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 //import java.util.*;
 public class UniqueArrWithOutCollection {
     public static void main(String[] args) {
@@ -21,8 +24,17 @@ public class UniqueArrWithOutCollection {
          }
      }
 for(int k=0;k<newIndex;k++){
-    System.out.print(uni[k]+" ");
+    System.out.println(uni[k]+" ");
+
 }
+     /*   Set<Integer> set = new LinkedHashSet<>();
+        for(int uniq : uni) {
+            if(uniq==0){
+                continue;
+            }
+            set.add(uniq);
+        }
+        System.out.println(set);*/
      
      
     }

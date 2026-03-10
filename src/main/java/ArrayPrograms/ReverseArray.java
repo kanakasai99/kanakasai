@@ -9,8 +9,8 @@ public class ReverseArray {
         int j=0;
         for(int i=a.length-1;i>=0;i--){
 
-            rev[j]=a[i];
-            j++;
+            rev[j++]=a[i];
+
 
         }
         System.out.println(Arrays.toString(rev));

@@ -7,18 +7,18 @@ public class PalindromeWithoutReverse {
 	public static void main(String[] args) {
 	
 		String str="kanak";
-		 Boolean br=true;
+		 Boolean br=false;
 		int length=str.length();
 		 	 for(int i=0;i< length/2;i++)
 		    {
 			 if(str.charAt(i)!=str.charAt(str.length()-1-i))
 			 {
-				 br=false;
+				 br=true;
 				 break;
 			  }
 
 			 }
-			 if(br)
+			 if(!br)
 			 {
 				 System.out.println("Palindrome ");
 			 }
