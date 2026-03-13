@@ -1,6 +1,6 @@
 package Patterns;
 
-public class Pattern8 {
+public class InvertedStarTraingle {
     public static void main(String[] args) {
         int n = 5
 

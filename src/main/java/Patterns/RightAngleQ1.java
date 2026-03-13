@@ -1,6 +1,6 @@
 package Patterns;
 
-public class pattern6 {
+public class RightAngleQ1 {
     public static void main(String[] args) {
 
         for(int i=1;i<=5;i++){

@@ -1,6 +1,6 @@
 package Patterns;
 
-public class pattern4 {
+public class Diamondpattern {
     public static void main(String[] args) {
         int n = 4; // height of half diamond
 
