@@ -1,6 +1,6 @@
 package stringPrograms;
 
-public class SpecialReverseInString{
+public class SpecificReverseInString {
     public static void main(String[] args){
         String s="!ABC$456#123";
         String rev="";
