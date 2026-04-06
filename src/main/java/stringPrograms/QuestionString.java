@@ -10,7 +10,10 @@ System.out.println(s2==s3);  //checks memory location
 System.out.println(s1==s3);
 System.out.println(s1.equals(s3));  //checks content in the memory
 }
-}
+}/*== → checks same object / same memory reference
+equals() → checks same content*/
+
+
 /*public class Main {
     public static void main(String[] args) {
          String s = "  My    name     is    so    and    so";

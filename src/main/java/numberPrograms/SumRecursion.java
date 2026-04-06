@@ -15,6 +15,6 @@ public class SumRecursion{
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the number");
         int num=sc.nextInt();
-        System.out.println("The sum of given number is: "+sum(num));
+        System.out.println("the sum of first n natural numbers: "+sum(num));
     }
 }

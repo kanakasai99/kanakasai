@@ -1,31 +1,28 @@
+
 package stringPrograms;
-
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
 import java.util.*;
-public class AnagramSubstring{
+public class AnagramSubstring {
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter the first string");
-        String input1=sc.nextLine();
-        System.out.println("enter the second string");
-        String input2=sc.nextLine();
-        //   String input1="programming";
-        //   String input2="gram";
-        Boolean br=false;
-        for(int i=0;i<input1.length();i++){
-            String temp="";
-            for(int j=i;j<input1.length();j++){
-                temp=temp+input1.charAt(j);
+        String s1="programming";
+        String s2="marg";
 
-                if(temp.equalsIgnoreCase(input2)){
-                    br =true;
-                    System.out.println("Substring anagram found: "+temp);
-                    System.out.println("output: "+br);
-                    break;
-                }
-            }
+        char ch1[]=s2.toCharArray();
+        Arrays.sort(ch1);
+
+        for(int i=0;i<=s1.length()-s2.length();i++){
+          String sub=s1.substring(i,i+s2.length());
+          char ch2[]=sub.toCharArray();
+          Arrays.sort(ch2);
+          if(Arrays.equals(ch1,ch2)){
+              System.out.println("Anagram");
+               break;
+          }
+          else{
+
+              System.out.println("not anagram");
+          }
         }
+
     }
+
 }
