@@ -3,7 +3,7 @@ package ArrayPrograms;
 public class SearchInsertPosition {
     public static int searchInsert(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] >= target) {
+            if (nums[i] == target) {
                 return i;
             }
         }
@@ -12,7 +12,7 @@ public class SearchInsertPosition {
     public static void main(String[] args) {
         int[] numbers = {1,3,5,6};
 
-        System.out.println(searchInsert(numbers, 5)); // 2
+        System.out.println(searchInsert(numbers, 1)); // 2
         System.out.println(searchInsert(numbers, 2)); // 1
         System.out.println(searchInsert(numbers, 7)); // 4
     }
