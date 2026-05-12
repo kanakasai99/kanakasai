@@ -11,7 +11,7 @@ public class FirstNonRepeatedCharInString{
         for(char eachChar: ch){
         	map.put(eachChar, map.getOrDefault(eachChar, 0) + 1);
         }
-for(Entry<Character,Integer> entry : map.entrySet()) {
+for(Map.Entry<Character,Integer> entry : map.entrySet()) {
 	if(entry.getValue()==1) {
 		System.out.println("First non repeated value is: "+entry.getKey());
 		break;

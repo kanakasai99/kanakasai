@@ -1,6 +1,5 @@
 package stringPrograms;
 
-
 public class EvenIndexUpperCase{
     public static void main(String[] args){
         String s[]="kanaka sai mereddy".split(" ");

@@ -1,6 +1,7 @@
 package stringPrograms;
 
-public class CountMultiOccuranceInString {
+public class
+CountMultiOccuranceInString {
 
     public static void main(String[] args) {
 
