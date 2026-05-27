@@ -11,7 +11,7 @@ public class ReverseSpecificPartInString {
         st1.append(rev);
         st1.append(s.substring(9));
 
-        System.out.println(st1.toString());
+        System.out.println(st1);
 
     }
 

@@ -18,6 +18,6 @@ public class String13m3223w{
                 output.append(ch);
             }
         }
-     System.out.println(output.toString());   
+     System.out.println(output);
     }   
 }

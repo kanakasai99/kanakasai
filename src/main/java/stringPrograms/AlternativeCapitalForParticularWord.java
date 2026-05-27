@@ -25,7 +25,7 @@ public class AlternativeCapitalForParticularWord {
 
         }
 
-        System.out.println(st.toString());
+        System.out.println(st);
     }
 
 }

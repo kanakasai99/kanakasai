@@ -12,3 +12,19 @@ System.out.println(s2);
         System.out.println(count);
     }
 }
+/*[^a-zA-Z0-9 ]
+Meaning
+Symbol	Meaning
+[]	character group
+^	NOT
+a-z	lowercase letters
+A-Z	uppercase letters
+0-9	numbers
+space	allows spaces
+
+So:
+
+Remove everything that is NOT:
+- letters
+- numbers
+- spaces*/
