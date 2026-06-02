@@ -1,5 +1,7 @@
 package stringPrograms;
 
+import java.util.Arrays;
+
 public class ArrangeCharactersInAlphabetic {
 public static void main(String[] args) {
 	String s="sai";
@@ -17,5 +19,6 @@ public static void main(String[] args) {
 	for(char c: ch) {
 		System.out.print(c);
 	}
+	System.out.println(Arrays.toString(ch));
 }
 }

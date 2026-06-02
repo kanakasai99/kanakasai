@@ -5,7 +5,7 @@ package ArrayPrograms;
 import java.util.*;
 public class EvenLeftOddRight {
     public static void main(String[] args){
-        int a[]={2, 0, 4, 0, 3, 0, 5, 0};
+        int a[]={2, 1, 4, 9, 3, 7, 5, 2};
         int left=0; int right=a.length-1;
         while(left<right){
             if(a[left]%2==0){

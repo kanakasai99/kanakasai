@@ -12,6 +12,7 @@ public class IncrementArrayAddOne{
 
         String ar=Integer.toString(num);
         System.out.println(ar);
+
         int newArr[]=new int[ar.length()];
         for(int i=0;i<ar.length();i++){
               newArr[i]=Character.getNumericValue(ar.charAt(i));
