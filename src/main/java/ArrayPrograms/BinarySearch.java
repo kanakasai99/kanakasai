@@ -32,4 +32,11 @@ int low = 0, high = arr.length - 1;
     }  
 }
 
-} 
+}
+/*Arrays.sort(a) returns void because its purpose is to sort the original array in place, not create and return a new array.
+
+For example:
+
+int[] a = {5, 2, 4, 1};
+
+System.out.println(Arrays.sort(a)); // ❌ Compilation Error*/
