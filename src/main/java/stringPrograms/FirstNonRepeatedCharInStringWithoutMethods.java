@@ -16,7 +16,7 @@ public static void main(String[] args) {
 		} 
 		if(!isRepeated){
 			System.out.println("first non rp: "+ch[i]);
-			break;
+			//break;
 		}
 	}
 }

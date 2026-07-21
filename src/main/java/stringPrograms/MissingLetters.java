@@ -1,6 +1,6 @@
 package stringPrograms;
 import java.util.*;
-public class MissingLetters {
+public class  MissingLetters {
     public static void main(String[] args){
         String s="abcdefghijklmnopqrstuvwxyz";
         String input="Kanaka sai mereddy".toLowerCase().replace(" ","");
