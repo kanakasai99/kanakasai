@@ -5,7 +5,7 @@ import java.util.*;
 public class AddingMaps {
     public static void main(String[] args) {
 
-      /*  List<Map<String, Integer>> list = new ArrayList<>();
+       List<Map<String, Integer>> list = new ArrayList<>();
         Map<String, Integer> map1 = new HashMap<>();
         map1.put("A", 15);
         Map<String, Integer> map2 = new HashMap<>();
@@ -15,17 +15,18 @@ public class AddingMaps {
         list.add(map1);
         list.add(map2);
         list.add(map3);
-        System.out.println(list);*/
+        System.out.println(list);
 
-        List<Map.Entry<String,Integer>> list=Arrays.asList(
-                Map.entry("A",15),
-                Map.entry("B",25),
-                Map.entry("A",75),
-                Map.entry("C",35),
-                Map.entry("C",15)
-        );
+//        List<Map.Entry<String,Integer>> list=Arrays.asList(
+//                Map.entry("A",15),
+//                Map.entry("B",25),
+//                Map.entry("A",75),
+//                Map.entry("C",35),
+//                Map.entry("C",15)
+//        );
         Map<String,Integer> map=new HashMap<>();
-        for(Map.Entry<String,Integer> entry: list){
+        for(Map<String,Integer>  maps: list)
+        for(Map.Entry<String,Integer> entry: maps.entrySet()){
             String key=entry.getKey();
             int value=entry.getValue();
 
