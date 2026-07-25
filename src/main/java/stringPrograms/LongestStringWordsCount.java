@@ -27,4 +27,19 @@ So:
 Remove everything that is NOT:
 - letters
 - numbers
-- spaces*/
+- spaces
+     String s[]="One night stand.+india is the most    powerful  in cricket565   +point of view".replaceAll("[^a-zA-Z0-9 ]","").split("\\s+");
+       System.out.println(Arrays.toString(s));
+       StringBuilder st=new StringBuilder();
+       int count=0;
+       for(String s1:s){
+           count++;
+           st.append(s1).append(" ");
+       }
+       System.out.println(count);
+       System.out.println(st.toString().trim());
+
+
+
+
+*/
