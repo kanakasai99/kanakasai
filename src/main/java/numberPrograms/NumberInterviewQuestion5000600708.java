@@ -1,19 +1,30 @@
 package numberPrograms;
 
+import java.util.Arrays;
+
 public class NumberInterviewQuestion5000600708 {
-    public static void main(String[] args){
-        int num=58423664;
-        String s=String.valueOf(num);
+    public static void main(String[] args) {
 
-        for(int i=0;i<s.length();i++){
-            if(s.charAt(i)!='0'){
+        int num = 58423664;
+        String s = String.valueOf(num);
 
-                System.out.print(s.charAt(i));
-                for(int j=i+1;j<s.length();j++){
-                    System.out.print(0);
+        String[] arr = new String[s.length()];
+        int index = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) != '0') {
+
+                StringBuilder sb = new StringBuilder();
+                sb.append(s.charAt(i));
+
+                for (int j = i + 1; j < s.length(); j++) {
+                    sb.append("0");
                 }
-                System.out.print(" ");
+
+                arr[index++] = sb.toString();
             }
         }
+
+        System.out.println(Arrays.toString(arr));
     }
 }
