@@ -12,6 +12,7 @@ public class DecompressStringType2 {
                for(int j=0;j<n;j++){
                    s1=s1+ch;
               }
+
            }
         }
         System.out.println(s1);
