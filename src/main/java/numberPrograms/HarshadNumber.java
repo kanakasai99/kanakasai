@@ -18,3 +18,4 @@ public class HarshadNumber{
 
     }
 }
+/*A Harshad Number (also called a Niven Number) is a number that is completely divisible by the sum of its digits.*/

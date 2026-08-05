@@ -22,3 +22,4 @@ public class HappyNumber{
         }
     }
 }
+/*A Happy Number is a number that eventually becomes 1 when you repeatedly replace the number with the sum of the squares of its digits.*/

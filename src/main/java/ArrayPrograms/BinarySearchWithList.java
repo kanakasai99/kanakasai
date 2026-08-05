@@ -12,7 +12,7 @@ public class BinarySearchWithList {
 
         public static void main(String[] args){
 
-            int a[] = {9,5,3,4,8,2};
+            int a[] = {9,5,-3,-1,8,-2};
 
             // Convert array to List<Integer>
             List<Integer> list = new ArrayList<>();
@@ -32,7 +32,7 @@ public class BinarySearchWithList {
                                                                                                 // Sort the list
             Collections.sort(list);
 
-            int target = 9;
+            int target = -1;
             int low = 0;
             int high = list.size() - 1;
             boolean found = false;

@@ -39,5 +39,16 @@ Returns the number of characters in that string*/
 
 }
 /*An Armstrong number (also known as a narcissistic number, pluperfect digital invariant (PPDI), or number of the power sum of digits) is a number that is equal to the sum of its own digits each raised to the power of the number of digits.
+Easy rule to remember
 
+For integer division:
+
+Java removes everything after the decimal point.
+
+Examples:
+
+9 / 10 = 0.9  → 0
+7 / 10 = 0.7  → 0
+15 / 10 = 1.5 → 1
+123 / 10 = 12.3 → 12
 */
