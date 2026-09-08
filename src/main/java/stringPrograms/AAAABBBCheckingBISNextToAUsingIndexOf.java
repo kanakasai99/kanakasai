@@ -20,4 +20,4 @@ public class AAAABBBCheckingBISNextToAUsingIndexOf {
             System.out.println("Wrong order");
         }
     }
-}
+} // for feteching
